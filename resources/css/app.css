@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Advercase Demo';
+  src: url('font/AdvercaseFont-Demo-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+.hero-title {
+  font-family: 'Advercase Demo', sans-serif;
+}
